@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+    <contact-us ADAPTERID="25ad1d77b43cdd01d2c0baf17">
+        <i>
+            <type>
+                weixin
+            </type>
+            <name>
+                声罄科技公众号
+            </name>
+            <data>
+                senking
+            </data>
+            <_id>
+                5ad1d77b43cdd01d2c0baf14
+            </_id>
+        </i>
+        <i>
+            <type>
+                email
+            </type>
+            <name>
+                总经理
+            </name>
+            <data>
+                rio@cenchin.com
+            </data>
+            <_id>
+                5ad1d77b43cdd01d2c0baf15
+            </_id>
+        </i>
+        <i>
+            <type>
+                email
+            </type>
+            <name>
+                人事招聘
+            </name>
+            <data>
+                hr@cenchin.com
+            </data>
+            <_id>
+                5ad1d77b43cdd01d2c0baf16
+            </_id>
+        </i>
+    </contact-us>
+    </data>
+</root>
