@@ -1,3 +1,58 @@
+
+@font-face {
+  font-family: 'oxmod-contact-us-iconfont';  /* project id 629203 */
+  src: url('//at.alicdn.com/t/font_629203_kekp244o6imuz0k9.eot');
+  src: url('//at.alicdn.com/t/font_629203_kekp244o6imuz0k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_629203_kekp244o6imuz0k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_629203_kekp244o6imuz0k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_629203_kekp244o6imuz0k9.svg#iconfont') format('svg');
+}
+
 .oxmod-contact-us{
 /* CSS */
+	.item{
+		padding:5px 0;
+		padding-left: 45px;
+		margin:0 5px;
+		border-bottom: .5px solid #f8f8f8;
+		min-height: 40px;
+		color:#222;
+		&:last-child{
+			border-bottom-style: none;
+		}
+	}
+	.icon{
+		float: left;
+		margin-left: -40px;
+		width:40px;
+		height: 40px;
+		line-height: 40px;
+		
+		&:before{
+			font-size: 30px;
+			text-align: center;
+			font-family: 'oxmod-contact-us-iconfont';
+			color:#999;
+		}
+	}
+	.icon-email{
+		&:before{
+			content: '\e62d';
+		}
+	}
+	.icon-weixin{
+		&:before{
+			content: '\e697';
+		}
+	}
+	.icon-phone{
+		&:before{
+			content: '\e672';
+		}
+	}
+	.icon-qq{
+		&:before{
+			content: '\e613';
+		}
+	}
  }

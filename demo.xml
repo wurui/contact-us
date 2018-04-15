@@ -16,23 +16,19 @@
     <data>
     <contact-us ADAPTERID="25ad1d77b43cdd01d2c0baf17">
         <i>
-            <type>
-                weixin
-            </type>
+            <type>weixin</type>
             <name>
                 声罄科技公众号
             </name>
             <data>
-                senking
+                cenchin
             </data>
             <_id>
                 5ad1d77b43cdd01d2c0baf14
             </_id>
         </i>
         <i>
-            <type>
-                email
-            </type>
+            <type>email</type>
             <name>
                 总经理
             </name>
@@ -44,9 +40,7 @@
             </_id>
         </i>
         <i>
-            <type>
-                email
-            </type>
+            <type>email</type>
             <name>
                 人事招聘
             </name>
@@ -56,6 +50,16 @@
             <_id>
                 5ad1d77b43cdd01d2c0baf16
             </_id>
+        </i>
+        <i>
+            <type>phone</type>
+            <name>
+                人事招聘
+            </name>
+            <data>
+                88587016
+            </data>
+           
         </i>
     </contact-us>
     </data>
