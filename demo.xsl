@@ -12,9 +12,11 @@
         <script src="https://l.oxm1.cc/3rd/require.js"></script>
       </head>
       <body>
-        <div class="layout">
-          <xsl:call-template name="wurui.contact-us" />
-        </div>
+        <oxpage>
+          <div class="layout">
+            <xsl:call-template name="wurui.contact-us" />
+          </div>
+        </oxpage>
         <script><![CDATA[
           require.config({
             urlArgs:function(id,url){
