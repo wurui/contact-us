@@ -14,53 +14,23 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <contact-us ADAPTERID="25ad1d77b43cdd01d2c0baf17">
-        <i>
-            <type>weixin</type>
-            <name>
-                声罄科技公众号
-            </name>
-            <data>
-                cenchin
-            </data>
-            <_id>
-                5ad1d77b43cdd01d2c0baf14
-            </_id>
-        </i>
-        <i>
-            <type>email</type>
-            <name>
-                总经理
-            </name>
-            <data>
-                rio@cenchin.com
-            </data>
-            <_id>
-                5ad1d77b43cdd01d2c0baf15
-            </_id>
-        </i>
-        <i>
-            <type>email</type>
-            <name>
-                人事招聘
-            </name>
-            <data>
-                hr@cenchin.com
-            </data>
-            <_id>
-                5ad1d77b43cdd01d2c0baf16
-            </_id>
-        </i>
-        <i>
-            <type>phone</type>
-            <name>
-                人事招聘
-            </name>
-            <data>
-                88587016
-            </data>
-           
-        </i>
-    </contact-us>
+
+        <info-contact-us>
+            <i>
+                <name>客服热线</name>
+                <type>tel</type>
+                <data>400800888</data>
+            </i>
+            <i>
+                <name>招聘邮箱</name>
+                <type>email</type>
+                <data>hr@email.com</data>
+            </i>
+            <i>
+                <name>微信公众号</name>
+                <type>weixin</type>
+                <data>cenchin_tech</data>
+            </i>
+        </info-contact-us>
     </data>
 </root>

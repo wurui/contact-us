@@ -1,9 +1,9 @@
 {
   "name": "contact-us",
   "apiDependencies": [
-  {
-    "name": "contact-us"
-  }
-]
+	  {
+	    "name": "info-contact-us"
+	  }
+	]
 }
 

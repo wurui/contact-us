@@ -2,7 +2,7 @@
     <xsl:template match="/root" name="wurui.contact-us">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-contact-us" ox-mod="contact-us">
-            <xsl:for-each select="data/contact-us/i">
+            <xsl:for-each select="data/info-contact-us/i">
             	<div class="item">
             		<span class="icon icon-{normalize-space(type)}"></span>
             		
@@ -16,7 +16,7 @@
             					<xsl:value-of select="data"/>
             				</a>
             			</xsl:when>
-            			<xsl:when test="type = 'phone'">
+            			<xsl:when test="type = 'tel'">
             				<a href="tel:{normalize-space(data)}">
             					<xsl:value-of select="data"/>
             				</a>
