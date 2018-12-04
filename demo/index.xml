@@ -15,22 +15,45 @@
     </p>
     <data>
 
-        <info-contact-us>
+        <info-company>
             <i>
-                <name>客服热线</name>
-                <type>tel</type>
-                <data>400800888</data>
+                <logo>http://i.oxm1.cc/uploads/git/wurui/img/2aeew1jrqTj4xh01y2R0yu6A3ta-1000.png</logo>
+                <name>杭州声罄科技有限公司</name>
+                <address>浙江杭州余杭</address>
+                <website>http://www.cenchin.com</website>
+                <introduce></introduce>
+                <slogan>我们掌握着改变世界的力量</slogan>
+                <contacts>
+                    
+                    <i>
+                        <name>客服热线</name>
+                        <type>tel</type>
+                        <no>400800888</no>
+                    </i>
+                    <i>
+                        <name>客服</name>
+                        <no>kf@cenchin.com</no>
+                        <type>email</type>
+                    </i>
+                    <i>
+                        <name>商务</name>
+                        <no>b@cenchin.com</no>
+                        <type>email</type>
+                    </i>
+                    <i>
+                        <name>招聘邮箱</name>
+                        <type>email</type>
+                        <no>hr@email.com</no>
+                    </i>
+                    <i>
+                        <name>微信公众号</name>
+                        <type>weixin</type>
+                        <no>cenchin_tech</no>
+                    </i>
+                </contacts>
+                <since>1489723200000</since>
             </i>
-            <i>
-                <name>招聘邮箱</name>
-                <type>email</type>
-                <data>hr@email.com</data>
-            </i>
-            <i>
-                <name>微信公众号</name>
-                <type>weixin</type>
-                <data>cenchin_tech</data>
-            </i>
-        </info-contact-us>
+        </info-company>
+
     </data>
 </root>

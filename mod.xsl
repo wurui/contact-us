@@ -2,26 +2,28 @@
     <xsl:template match="/root" name="wurui.contact-us">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-contact-us" ox-mod="contact-us">
-            <xsl:for-each select="data/info-contact-us/i">
+            <xsl:variable name="company" select="data/info-company/i[1]"/>
+            <xsl:for-each select="$company/contacts/i">
             	<div class="item">
-            		<span class="icon icon-{normalize-space(type)}"></span>
             		
-            		<span>
+            		
+            		<label>
             			<xsl:value-of select="name"/>
-            		</span>
+            		</label>
             		<br/>
+                    <span class="icon icon-{normalize-space(type)}"></span>
             		<xsl:choose>
             			<xsl:when test="type = 'email'">
             				<a href="mailto:{normalize-space(data)}">
-            					<xsl:value-of select="data"/>
+            					<xsl:value-of select="no"/>
             				</a>
             			</xsl:when>
             			<xsl:when test="type = 'tel'">
-            				<a href="tel:{normalize-space(data)}">
-            					<xsl:value-of select="data"/>
+            				<a href="tel:{normalize-space(no)}">
+            					<xsl:value-of select="no"/>
             				</a>
             			</xsl:when>
-            			<xsl:otherwise><xsl:value-of select="data"/></xsl:otherwise>
+            			<xsl:otherwise><xsl:value-of select="no"/></xsl:otherwise>
             		</xsl:choose>
             		
             	</div>
