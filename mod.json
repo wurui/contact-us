@@ -2,7 +2,8 @@
   "name": "contact-us",
   "apiDependencies": [
 	  {
-	    "name": "info-company"
+	    "name": "info-company",
+	    "selector":"_id"
 	  }
 	]
 }
