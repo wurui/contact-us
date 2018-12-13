@@ -10,20 +10,33 @@
 
 .oxmod-contact-us{
 /* CSS */
+	a{
+		color:inherit;
+	}
 	.item{
-		padding:5px 15px;
+		padding:10px 0px 10px 50px;
 		color:#333;
 		//padding-left: 45px;
 		//margin: 5px;
 		//border-bottom: .5px solid #f8f8f8;
 		min-height: 40px;
 		font-size: 15px;
+		border-bottom:solid .5px #f9f9f9;
+		margin:0 10px;
+		&:last-child{
+			border-bottom:none;
+		}
 
 		>label{
-			color:#999;
+			color:#666;
 			font-size: 12px;
 			font-weight: 400;
+			line-height: 1.8;
 		}
+	}
+	.no{
+		font-style:italic;
+		letter-spacing: 1px;
 	}
 	.icon{
 		//float: left;
@@ -31,12 +44,18 @@
 		//width:40px;
 		//height: 40px;
 		//line-height: 40px;
-		margin-right: 5px;
+		
+		float: left;
+		margin-left:-50px;
+		line-height: 40px;
+		width:40px;
+		text-align:center;
+		opacity: .9;
 		&:before{
-			font-size: 18px;
+			font-size: 32px;
 			text-align: center;
 			font-family: 'oxmod-contact-us-iconfont';
-			color:#999;
+
 
 		}
 	}

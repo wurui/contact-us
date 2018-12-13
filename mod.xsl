@@ -4,27 +4,26 @@
         <div class="J_OXMod oxmod-contact-us" ox-mod="contact-us">
             <xsl:variable name="company" select="data/info-company/i[1]"/>
             <xsl:for-each select="$company/contacts/i">
-            	<div class="item">
-            		
-            		
-            		<label>
-            			<xsl:value-of select="name"/>
-            		</label>
-            		<br/>
-                    <span class="icon icon-{normalize-space(type)}"></span>
-            		<xsl:choose>
-            			<xsl:when test="type = 'email'">
-            				<a href="mailto:{normalize-space(data)}">
-            					<xsl:value-of select="no"/>
-            				</a>
-            			</xsl:when>
-            			<xsl:when test="type = 'tel'">
-            				<a href="tel:{normalize-space(no)}">
-            					<xsl:value-of select="no"/>
-            				</a>
-            			</xsl:when>
-            			<xsl:otherwise><xsl:value-of select="no"/></xsl:otherwise>
-            		</xsl:choose>
+            	<div class="item">            		
+                    <span class="skin-color icon icon-{normalize-space(type)}"></span>
+                    <label>
+                        <xsl:value-of select="name"/>
+                    </label>
+                    <p class="no">
+                		<xsl:choose>
+                			<xsl:when test="type = 'email'">
+                				<a href="mailto:{normalize-space(data)}">
+                					<xsl:value-of select="no"/>
+                				</a>
+                			</xsl:when>
+                			<xsl:when test="type = 'tel'">
+                				<a href="tel:{normalize-space(no)}">
+                					<xsl:value-of select="no"/>
+                				</a>
+                			</xsl:when>
+                			<xsl:otherwise><xsl:value-of select="no"/></xsl:otherwise>
+                		</xsl:choose>
+                    </p>
             		
             	</div>
             </xsl:for-each>

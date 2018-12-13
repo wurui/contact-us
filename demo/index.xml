@@ -30,16 +30,7 @@
                         <type>tel</type>
                         <no>400800888</no>
                     </i>
-                    <i>
-                        <name>客服</name>
-                        <no>kf@cenchin.com</no>
-                        <type>email</type>
-                    </i>
-                    <i>
-                        <name>商务</name>
-                        <no>b@cenchin.com</no>
-                        <type>email</type>
-                    </i>
+                  
                     <i>
                         <name>招聘邮箱</name>
                         <type>email</type>
