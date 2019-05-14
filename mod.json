@@ -1,10 +1,10 @@
 {
-  "name": "contact-us",
-  "apiDependencies": [
-	  {
-	    "name": "info-company",
-	    "selector":"_id"
-	  }
+	"RULE_VERSION":"20190428",
+  	"name": "contact-us",
+  	"apiDependencies": [
+		{
+			"name": "the-company"
+		}
 	]
 }
 

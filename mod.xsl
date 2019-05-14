@@ -2,7 +2,7 @@
     <xsl:template match="/root" name="wurui.contact-us">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-contact-us" ox-mod="contact-us">
-            <xsl:variable name="company" select="data/info-company/i[1]"/>
+            <xsl:variable name="company" select="data/the-company"/>
             <xsl:for-each select="$company/contacts/i">
             	<div class="item">            		
                     <span class="skin-color icon icon-{normalize-space(type)}"></span>
